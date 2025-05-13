@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.App {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+.dark button {
+  background-color: #444;
+  color: #fff;
+}
+
+.light button {
+  background-color: #4caf50;
+  color: white;
+}
